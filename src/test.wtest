@@ -1,0 +1,60 @@
+
+test "testX" {
+
+	assert.that(true)
+
+}
+
+//>>> roxana.precioPorViaje(ludmila,10)
+//180
+//>>> roxana.precioPorViaje(anaMaria,10)
+//300
+//>>> roxana.precioPorViaje(teresa,10)
+//220
+//>>> gabriela.precioPorViaje(ludmila,10)
+//216
+//>>> gabriela.precioPorViaje(anaMaria,10)
+//360
+//>>> gabriela.precioPorViaje(teresa,10)
+//264
+//>>> mariela.precioPorViaje(ludmila,10)
+//180
+//>>> mariela.precioPorViaje(anaMaria,10)
+//300
+//>>> mariela.precioPorViaje(teresa,10)
+//220
+//>>> juana.precioPorViaje(ludmila,10)
+//200
+//>>> juana.precioPorViaje(anaMaria,10)
+//200
+//>>> juana.precioPorViaje(teresa,10)
+//200
+
+
+//reemplazaA
+//>>> lucia.reemplazarA(roxana)
+//>>> lucia
+//lucia[reemplazaA=roxana[]]
+//>>> lucia.precioPorViaje(ludmila,10)
+//180
+//>>> lucia.precioPorViaje(anaMaria,10)
+//300
+//>>> lucia.precioPorViaje(teresa,10)
+//220
+//>>> lucia.reemplazaA(gabriela)
+//>>> lucia.reemplazarA(gabriela)
+//>>> lucia.precioPorViaje(ludmila,10)
+//216
+//>>> lucia.precioPorViaje(anaMaria,10)
+//360
+//>>> lucia.precioPorViaje(teresa,10)
+//264
+//>>> lucia.reemplazarA(juana)
+//>>> lucia.precioPorViaje(ludmila,10)
+//200
+//>>> lucia.precioPorViaje(anaMaria,10)
+//200
+//>>> lucia.precioPorViaje(tersa,10)
+//ERROR: No se puede resolver la referencia Referenciable 'tersa'. (línea: 4)
+//>>> lucia.precioPorViaje(teresa,10)
+//200
